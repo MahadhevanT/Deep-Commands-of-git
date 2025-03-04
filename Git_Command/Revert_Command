@@ -1,0 +1,10 @@
+
+Revert Command in Git:
+  It purpose of modify the local data and remote area data and it will not modify the commit history but it will create new revert commit history
+
+  Steps to create revert commit
+    Step 1: use git log (to take the histoty of commands)
+    Step 2: select current commit id present in the history and copy the id 
+    step 3: create the revert commit using git revert paste the id 
+    step 4: generate the new revit commit and press enter
+
