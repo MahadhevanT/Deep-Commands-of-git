@@ -1,0 +1,16 @@
+
+  Reset Command:
+  	it used to delete the pervious commit file and data discard any changes made after that commit is called reset command
+
+	In the reset command that three ways discard the data
+	 1. Soft
+	 2. Mixed(default)
+	 3. Hard
+
+	 It mainly changes only in the local not in remote of github
+
+	 Steps
+         step 1: use git log (to take the history commit)
+	 step 2: Select the commit id which should be deleted and copy commit froom below the delete commit
+	 step 3: Using git reset and paste the commit id and also default type set to delet the commit
+	 step 4: using git reset -soft "Link" ,git reset -hard "Link"
