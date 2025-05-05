@@ -1,0 +1,2 @@
+ the git reset command in github
+
